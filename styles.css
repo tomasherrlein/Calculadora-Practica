@@ -43,13 +43,13 @@ body{
 
 .calculadora{
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
     color:white;
     background-color: #15173c;
-    grid-template-columns: repeat(4, 1fr);
     width: 350px;
     padding: 1.5rem;
     border-radius: 1rem;
-    gap: 0.5rem;
+    gap: .5rem;
     box-shadow: 0 0 20px rgba(106, 49, 252, 0.5);
 }   
 
@@ -63,12 +63,12 @@ body{
     font-size: 2rem;
     font-weight: 700;
     font-family: monospace;
+    overflow-x: auto;
 }
 
 .btn{
     background-color: #15173c;
     color: white;
-    border: 0;
     padding: 1.5rem .5rem;
     display: flex;
     justify-content: center;
